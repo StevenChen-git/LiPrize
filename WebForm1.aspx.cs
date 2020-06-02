@@ -68,6 +68,7 @@ namespace LiPrize
 			GridView1.DataSource = goDataReader;//告訴GridView1的資料來源是從goDataReader
 			GridView1.DataBind();//將資料來源與GridView1做繫結    
 			connection.Close();
+			//test
 		}
 	}
 }
